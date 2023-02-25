@@ -10,22 +10,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <nav class="navName"> 
-          <ul>  
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li> <a href="">Projects</a></li> 
+    <nav class="navbar">
+      <div class="headName">Alannie Decena</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
         </ul>
-        </nav>
-    </header>
+      </div>
+    </nav>
+  </body>
 
-    
+  
+<script>
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-
-</body>
-
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+});
+</script>
 </html>
