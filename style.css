@@ -36,18 +36,21 @@ body {
 
 .navbar-links {
     height: 100%;
-    
 }
 
 .navbar-links ul {
     display: flex;
     margin: 0;
     padding: 0;
+   
 }
+
+
 
 .navbar-links li {
     list-style: none;
-    border-left: 3px solid var(--resolution-blue);
+   
+    
 }
 
 .navbar-links li a {
@@ -55,6 +58,7 @@ body {
     text-decoration: none;
     color: var(--resolution-blue);
     padding: 1rem;
+    
 }
 
 .navbar-links li a:hover {
@@ -79,7 +83,11 @@ body {
     background-color: var(--resolution-blue);
     border-radius: 10px;
 }
+/* nav bar END*/
 
+
+
+/* ----------------------------------------------------------*/
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
@@ -112,4 +120,5 @@ body {
     .navbar-links.active {
         display: flex;
     }
+    /* nav bar END*/
 }
