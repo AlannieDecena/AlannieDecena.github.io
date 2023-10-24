@@ -142,7 +142,7 @@ article {
     padding-bottom: 5%;
     display: flex;
     flex-direction: row;
-    background-color: var(--ultra-violet);
+    /* background-color: var(--ultra-violet); */
     display: flex;
     align-items: center;
     justify-content: center;
