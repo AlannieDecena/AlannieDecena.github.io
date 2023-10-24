@@ -207,9 +207,42 @@ article {
 
 footer {
     width: auto;
-    height: 15vh;
-   
     background-color: var(--resolution-blue);
+    padding: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+h4{
+    margin: 0;
+    color: var(--alabaster);
+}
+
+.socialWrapper{
+    display: flex;
+    gap: 1rem;
+}
+.socialIcon{
+    
+    width: 30px;
+    height: 30px;
+
+}
+
+.copyright {
+    color: var(--alabaster);
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 3rem;
+
+
 }
 
 
