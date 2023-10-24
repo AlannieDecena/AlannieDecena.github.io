@@ -37,7 +37,7 @@ body {
 }
 
 .headName {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     margin: .5rem;
     color: var(--resolution-blue);
@@ -98,6 +98,10 @@ section {
     width: 100%;
     height: 60vh;
     border-bottom: 3px solid var(--resolution-blue);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+
 }
 
 .leftSideBox  {
@@ -117,6 +121,13 @@ section {
 .leftSideBox p {
     font-size: .75rem;
 
+}
+
+.rightSideBox {
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    margin: auto;
 }
 
 .btn {
@@ -146,13 +157,14 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5rem;
 }
 
 
 .projectBoxes {
-    margin: 20px;
-    width: 28%;
-    height: 70%;
+    /* margin: 20px; */
+    width: 20rem;
+    height: 20rem;
     background-color: var(--alabaster);
     border: 3px solid var(--resolution-blue);
     box-shadow: 10px 10px var(--resolution-blue);
@@ -256,10 +268,10 @@ footer {
         height: auto;
     }
     
-    .projectBoxes {
+    /* .projectBoxes {
         width: 50vw;
         height: 45vh;
-    }
+    } */
 
     .proBoxHeading p {
         font-size: .75rem;
