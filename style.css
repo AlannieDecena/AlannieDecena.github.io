@@ -205,6 +205,35 @@ article {
     margin: 1%;
 }
 
+.imgBoxCap{
+    width: 313px;
+    height: 152px;
+    /* background-image: url("./images/LogIn.png"); */
+    background-image: url("./images/capLogo.png");
+    background-color: lavender;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+
+.imgBoxIsakaied{
+    width: 313px;
+    height: 152px;
+    background-image: url("./images/Animehome.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgBoxCal{
+    width: 313px;
+    height: 152px;
+    background-image: url("./images/Calculator.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 footer {
     width: auto;
     background-color: var(--resolution-blue);
