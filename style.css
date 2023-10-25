@@ -234,6 +234,37 @@ article {
     background-position: center;
 }
 
+.projectTxt{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.projectTxt h5, p {
+    margin: 0;
+    color: var(--resolution-blue);
+}
+.projectTxt p {
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.projectBtn{
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--resolution-blue);
+    background-color: var(--ultra-violet);
+    border: 2px solid var(--resolution-blue);
+    /* box-shadow: 3px 3px var(--resolution-blue); */
+    float: right;
+    margin-right: 1rem;
+}
+
 footer {
     width: auto;
     background-color: var(--resolution-blue);
