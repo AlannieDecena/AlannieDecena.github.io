@@ -125,6 +125,18 @@ section {
 
 }
 
+.introImg{
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/Profile-PicBlue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: var(--resolution-blue) 3px solid;
+    box-shadow: 10px 10px var(--resolution-blue);
+}
+
+
 /* .rightSideBox {
     width: 20rem;
     height: 20rem;
