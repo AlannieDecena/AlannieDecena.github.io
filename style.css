@@ -148,6 +148,12 @@ section {
     
 }
 
+.btn:hover {
+    background-color: var(--marian-blue);
+    color: var(--alabaster);
+    box-shadow: 0px 0px var(--resolution-blue)
+}
+
 article {
     width: 100%;
     height: 60vh;
@@ -250,9 +256,9 @@ article {
 
 .projectBtn{
     margin-top: 10px;
-    width: 90px;
-    height: 30px;
-    font-size: 14px;
+    width: 80px;
+    height: 27px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -264,6 +270,12 @@ article {
     float: right;
     margin-right: 1rem;
 }
+
+.projectBtn:hover {
+    background-color: var(--marian-blue);
+    color: var(--alabaster);
+    cursor: pointer;
+    }
 
 footer {
     width: auto;
