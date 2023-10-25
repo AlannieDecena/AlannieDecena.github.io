@@ -6,7 +6,7 @@
 }
 * {
     box-sizing: border-box;
-    outline: 1px dashed red ;
+    /* outline: 1px dashed red ; */
   
 }
 
@@ -77,7 +77,7 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: .4rem;
     right: 1rem;
     display: none;
     flex-direction: column;
