@@ -1,0 +1,66 @@
+.aboutBox{
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var( --alabaster);
+
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.abtTxtImgBox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.aboutSkillBox{
+    width: 45%;
+    height: 100%;
+    background-color:yellow;
+}
+
+.aboutImgWrapper{
+    width: 80%;
+    height: 40%;
+    /* margin: 0 auto; */
+}
+
+.aboutImg{
+    background-position-y: -25rem;
+}
+
+.aboutTxtBox{
+    width: 60%;
+    height: 35%;
+    background-color: aqua;
+    /* margin-left: 3%; */
+    margin-top: 3%;
+}
+
+
+
+@media (max-width: 800px) {
+    .aboutImg{
+        background-position-y: -6rem;
+    }
+
+ .aboutBox{
+    flex-direction: column;
+ }
+
+ .aboutSkillBox{
+    width: 100%;
+    height: 40%;
+ }
+
+ .abtTxtImgBox{
+    width: 100%;
+    align-items: center;
+ }
+}
