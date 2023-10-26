@@ -43,7 +43,7 @@
     height: 35%;
     background-color: aqua;
     /* margin-left: 3%; */
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .skillBox{
@@ -69,8 +69,8 @@
 .icons{
     width: 5rem;
     height: 6rem;
-    background-color: rgb(0, 0, 255);
-
+    border: var(--resolution-blue) 3px solid;
+    box-shadow: 10px 10px var(--resolution-blue);
 }
 
 @media (max-width: 800px) {
@@ -95,12 +95,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
  }
 
 .icons{
     width: 4rem;
     height: 5rem;
+    
 }
 
  .abtTxtImgBox{
