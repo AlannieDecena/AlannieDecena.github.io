@@ -1,6 +1,6 @@
 .aboutBox {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   /* padding-top: 3rem;
     padding-bottom: 3rem; */
   background-color: var(--alabaster);
@@ -81,6 +81,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+
+  margin: auto;
 }
 
 .icons:hover {
@@ -126,10 +128,12 @@
 @media (max-width: 800px) {
   .aboutImg {
     background-position-y: -10rem;
+    
   }
 
   .aboutBox {
     flex-direction: column;
+    /* margin-top: 5%; */
   }
   .aboutTxtBox {
     text-align: center;
@@ -141,7 +145,8 @@
   .aboutSkillBox {
     width: 100%;
     height: 40%;
-    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
   }
 
   .skillBox {
@@ -163,5 +168,7 @@
   .abtTxtImgBox {
     width: 100%;
     align-items: center;
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
   }
 }
