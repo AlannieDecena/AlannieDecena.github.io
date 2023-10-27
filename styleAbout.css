@@ -1,111 +1,167 @@
-.aboutBox{
-    width: 100%;
-    height: 100vh;
-    /* padding-top: 3rem;
+.aboutBox {
+  width: 100%;
+  height: 100vh;
+  /* padding-top: 3rem;
     padding-bottom: 3rem; */
-    background-color: var( --alabaster);
+  background-color: var(--alabaster);
 
   display: flex;
   /* flex-direction: row; */
 }
 
-.abtTxtImgBox{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    background-color: aquamarine;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
+.abtTxtImgBox {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  /* background-color: aquamarine; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
 }
 
-.aboutSkillBox{
-    width: 60%;
-    height: 100%;
-    background-color:yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.aboutSkillBox {
+  width: 60%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.aboutImgWrapper{
-    width: 90%;
-    height: 40%;
-    /* margin: 0 auto; */
+.aboutImgWrapper {
+  width: 90%;
+  height: 40%;
+  /* margin: 0 auto; */
 }
 
-.aboutImg{
-    background-position-y: -17rem;
+.aboutImg {
+  background-position-y: -17rem;
 }
 
-.aboutTxtBox{
-    width: 60%;
-    height: 35%;
-    background-color: aqua;
-    /* margin-left: 3%; */
-    margin-top: 5%;
+.aboutTxtBox {
+  width: 90%;
+  /* height: 35%; */
+  /* background-color: aqua; */
+  /* margin-left: 3%; */
+  margin-top: 5%;
+  text-align: end;
+  line-height: 1.25rem;
+}
+.aboutTxtBox h2 {
+  justify-content: end;
+  margin-bottom: 2%;
 }
 
-.skillBox{
-    width: 70%;
-    height: 75%;
-    background-color: rgb(255, 0, 144);
-   display: grid;
-   grid-template-columns: 1fr 1fr ;
-   gap: .10rem;
-   justify-items: center; 
-   align-items: center;
-   
+.skillBox {
+  width: 75%;
+  height: 90%;
+  /* background-color: rgb(255, 0, 144); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.1rem;
+  justify-items: center;
+  align-items: center;
+}
+/* ICONS */
+.iconwrapper p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--resolution-blue);
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-.iconwrapper p{
-    margin: 0;
-    font-size: 12px;
-    color: var(--resolution-blue);
-    justify-content: center;
-    margin-top: .5rem;
+.icons {
+  width: 5rem;
+  height: 6rem;
+  border: var(--resolution-blue) 3px solid;
+  box-shadow: 10px 10px var(--resolution-blue);
+  background-color: var(--ultra-violet);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
-.icons{
-    width: 5rem;
-    height: 6rem;
-    border: var(--resolution-blue) 3px solid;
-    box-shadow: 10px 10px var(--resolution-blue);
+.icons:hover {
+  box-shadow: 0px 0px var(--resolution-blue);
+  background-color: var(--resolution-blue);
+}
+
+.icons:hover ~ p {
+  margin-top: 0.4rem;
+}
+
+.htlmIcon {
+  background-image: url("./images/Iconhtml5.png");
+}
+.cssIcon {
+  background-image: url("./images/Iconcss.png");
+}
+.jsIcon {
+  background-image: url("./images/js.png");
+}
+.dataIcon {
+  background-image: url("./images/Icondatabase.png");
+}
+.figmaIcon {
+  background-image: url("./images/Iconfigma.png");
+}
+.apiIcon {
+  background-image: url("./images/IconrestApi.png");
+}
+.reactIcon {
+  background-image: url("./images/Iconreact.png");
+}
+.idIcon {
+  background-image: url("./images/Iconindesign.png");
+}
+.psIcon {
+  background-image: url("./images/Iconphotoshop.png");
+}
+.gitIcon {
+  background-image: url("./images/Icongithub.png");
 }
 
 @media (max-width: 800px) {
-    .aboutImg{
-        background-position-y: -10rem;
-    }
+  .aboutImg {
+    background-position-y: -10rem;
+  }
 
- .aboutBox{
+  .aboutBox {
     flex-direction: column;
- }
+  }
+  .aboutTxtBox {
+    text-align: center;
+  }
+  .aboutTxtBox h2 {
+    justify-content: center;
+  }
 
- .aboutSkillBox{
+  .aboutSkillBox {
     width: 100%;
     height: 40%;
+    padding: 2%;
+  }
 
- }
-
- .skillBox{
+  .skillBox {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
- }
+  }
 
-.icons{
+  .icons {
     width: 4rem;
     height: 5rem;
-    
-}
+  }
 
- .abtTxtImgBox{
+  .abtTxtImgBox {
     width: 100%;
     align-items: center;
- }
+  }
 }
