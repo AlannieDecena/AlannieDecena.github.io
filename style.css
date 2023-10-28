@@ -372,6 +372,7 @@ h4{
 
     .introBox {
         padding: 30px;
+        width: 65%;
     }
 
     .introBox h1, h2  {
