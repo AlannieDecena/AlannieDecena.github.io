@@ -45,11 +45,15 @@
   /* margin-left: 3%; */
   margin-top: 5%;
   text-align: end;
-  line-height: 1.25rem;
+  /* line-height: 1.25rem; */
 }
 .aboutTxtBox h2 {
   justify-content: end;
   margin-bottom: 2%;
+}
+
+.aboutTxtBox p {
+  line-height: 25px;
 }
 
 .skillBox {

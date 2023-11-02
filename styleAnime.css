@@ -1,0 +1,9 @@
+.AnimeTxt{
+    width: 80%;
+}
+
+@media (max-width: 800px) {
+    .AnimeTxt{
+        width: 70%;
+    }
+}

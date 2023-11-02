@@ -6,7 +6,7 @@
 }
 * {
     box-sizing: border-box;
-    outline: 1px dashed red ;
+    /* outline: 1px dashed red ; */
   
 }
 
@@ -112,18 +112,16 @@ section {
    flex-direction: column;
    padding: 80px;
    margin: auto;
-   /* justify-content: center;
-   align-items: center; */
+   justify-content: center;
+   align-items: center;
+   text-align: center;
 }
 
-.introBox h1, h2  {
+.introBox h1 {
     font-size: 2.70rem;
     
 }
 
-.introBox p {
-    font-size: .75rem;
-}
 
 .introImg{
     width: 100%;

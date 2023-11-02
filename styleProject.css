@@ -1,0 +1,11 @@
+.projectPage{
+    height: 100vh;
+    background-color: var(--alabaster);
+}
+
+@media (max-width: 800px) {
+    .projectPage{
+        /* width: 100%; */
+        height: 100%;
+    }
+}
